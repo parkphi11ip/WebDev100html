@@ -34,7 +34,24 @@
     font-weight: bold;
     font-size: 25px;
   }
-  #a {
+  #top {
     color: rgb(68, 76, 76);
     font-size: 40px;
+  }
+  #mid {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: bold;
+  }
+  #button{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  }
+  #fish69logo{
+    width: 360px;
+    height: 360px;
+    border-radius: 36px;
   }

@@ -1,0 +1,57 @@
+  body{
+    text-align: center;
+    background-color: rgb(255, 252, 243);
+    margin: 50px;
+  }
+  img{
+    width: 360px;
+    height: 360px;
+    border-radius: 180px;
+
+  }
+  h1 {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  p {
+    font-family: 'Courier New', sans-serif;
+    text-align: center;
+    color: rgb(58, 57, 57);
+  }
+  a{
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    color: rgb(58, 57, 57);
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+
+  #todays-challenge {
+    color: rgb(red);
+    font-weight: bold;
+    font-size: 25px;
+  }
+  #top {
+    color: rgb(68, 76, 76);
+    font-size: 40px;
+  }
+  #mid {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: bold;
+  }
+  #button{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  }
+  #fish69logo{
+    width: 360px;
+    height: 360px;
+    border-radius: 36px;
+  }
