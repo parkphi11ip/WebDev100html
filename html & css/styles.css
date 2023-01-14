@@ -1,0 +1,18 @@
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+  }
+  p {
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    background-color: antiquewhite;
+  }
+  a{
+    color: rgb(green);
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
