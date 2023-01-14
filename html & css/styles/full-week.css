@@ -1,9 +1,20 @@
 h1{
     font-size: 164;
-    color: blue;
+    color: gray;
 }
 
 a{
     background-color: rgb(167, 1, 78);
     color: white;
+}
+a:hover{
+    text-decoration: none;
+}
+ol{
+    list-style: none;
+}
+li{
+    margin: 32;
+    background-color: royalblue;
+    border-radius: 7px;
 }
