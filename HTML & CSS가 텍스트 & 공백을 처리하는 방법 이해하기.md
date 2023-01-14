@@ -11,10 +11,10 @@ HTML과 CSS(나중에 "JavaScript"에서도)에서 개발자는 일반적으로 
 
 1) 서식 없음
 
-    <html><head><title>A test </title><style>h1{color:red}</style></head><body><h1>Hi there!</h1><p>This is some text...</p></body></html>
+    <!-- <html><head><title>A test </title><style>h1{color:red}</style></head><body><h1>Hi there!</h1><p>This is some text...</p></body></html> -->
 
 2) 줄 바꿈 및 들여쓰기로 서식 지정(즉, "공백"이 많음)
-
+<!-- 
     <html>
       <head>
         <title>A test </title>
@@ -28,7 +28,7 @@ HTML과 CSS(나중에 "JavaScript"에서도)에서 개발자는 일반적으로 
         <h1>Hi there!</h1>
         <p>This is some text...</p>
       </body>
-    </html>
+    </html> -->
 
 기본적으로 브라우저(일반적으로 몇 가지 예외가 있으며 나중에 살펴보겠습니다)는 HTML과 CSS 코드에서 줄 바꿈과 들여쓰기를 무시합니다. 그렇기 때문에 사이트 방문자는 두 스니펫에 대해 동일한 결과를 보게 됩니다.
 
