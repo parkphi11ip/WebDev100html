@@ -1,18 +1,29 @@
 h1 {
-    font-family: sans-serif;
+    font-family:'Courier New', Courier, monospace;
     text-align: center;
-    color: orangered;
+    color: rgb(0, 0, 0);
   }
   p {
-    font-family: sans-serif;
+    font-family: 'DotGothic16', sans-serif;
     text-align: center;
-    color: orangered;
-    background-color: antiquewhite;
+    color: rgb(58, 57, 57);
   }
   a{
-    color: rgb(green);
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    color: rgb(58, 57, 57);
     text-decoration: none;
   }
   a:hover{
     text-decoration: underline;
+  }
+
+  #todays-challenge {
+    color: rgb(red);
+    font-weight: bold;
+    font-size: 25px;
+  }
+  #a {
+    color: rgb(68, 76, 76);
+    font-size: 40px;
   }
