@@ -1,20 +1,52 @@
+header{
+    margin-bottom: 64px;
+}
+
 h1{
     font-size: 164;
     color: gray;
+    margin: 36px 0;
 }
+/* #description{
+    margin-bottom: 36px;
+} */
+/* header p{
+    margin-bottom: 36px;
+} */
 
 a{
-    background-color: rgb(167, 1, 78);
+    padding: 4px 8px;
+    background-color: rgb(233, 64, 143);
     color: white;
+    border: 1px solid rgb(222, 33, 121);
+    border-radius: 12px;
+    font-size: 16px;
 }
 a:hover{
     text-decoration: none;
 }
 ol{
     list-style: none;
+    width: 500px;
+    margin: 36px auto 0 auto;
 }
 li{
-    margin: 32;
-    background-color: royalblue;
+    padding: 16px;
+    margin: 32px;
+    background-color:orange;
     border-radius: 7px;
+}
+h2{
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+/* main p{
+    margin: 12px;
+    color: black;
+    font-weight: bold;
+} */
+
+.highlight{
+   background-color: coral;
 }
