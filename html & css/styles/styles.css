@@ -1,24 +1,31 @@
-  body{
-    text-align: center;
+  
+  main{
+    width: 600px;
+    margin: 200px auto 72px auto;
+    background-color: bisque;
+    padding: 24px;
+    border: 3px solid;
+    border-radius: 15px;
+    box-shadow: 1px 2px 8px;
   }
   img{
-    width: 360px;
-    height: 360px;
-    border-radius: 180px;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    border: 3px solid;
+    margin-top: -134px;
   }
-  #something {
-    color: rgb(red);
+  h1{
+    font-size: 30px;
+    color: brown;
+  }
+  p{
+    font-size: 34px;
     font-weight: bold;
-    font-size: 25px;
   }
-
-  
-  /* li{
-    list-style-type: none;
-    list-style: upper-roman;
-    color: blue;
+  a{
+    color: red;
   }
-  ol{
-    list-style: none;
-    color: aqua; 
-  }  */
+  span{
+    color:orangered;
+  }

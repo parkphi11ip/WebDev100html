@@ -1,26 +1,29 @@
 header{
     margin-bottom: 64px;
+    
 }
 
 h1{
     font-size: 164;
     color: gray;
-    margin: 36px 0;
+    margin: 0;
 }
-/* #description{
-    margin-bottom: 36px;
-} */
+#description{
+    margin-bottom: 12px;
+}
 /* header p{
     margin-bottom: 36px;
 } */
 
 a{
-    padding: 4px 8px;
+    padding: 8px 8px;
     background-color: rgb(233, 64, 143);
     color: white;
     border: 1px solid rgb(222, 33, 121);
     border-radius: 12px;
     font-size: 16px;
+    display: inline-block;
+    margin: 0;
 }
 a:hover{
     text-decoration: none;
@@ -35,17 +38,19 @@ li{
     margin: 32px;
     background-color:orange;
     border-radius: 7px;
+    box-shadow: 3px 3px 10px;
+
 }
 h2{
     color: greenyellow;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
-/* main p{
+main p{
     margin: 12px;
     color: black;
     font-weight: bold;
-} */
+}
 
 .highlight{
    background-color: coral;

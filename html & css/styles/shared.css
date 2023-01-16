@@ -3,6 +3,9 @@ body{
   background-color: rgb(255, 252, 243);
   margin: 50px;
 }
+main{
+  text-align: center;
+}
 h1 {
   font-family:'Courier New', Courier, monospace;
   text-align: center;
@@ -14,11 +17,14 @@ p {
   color: rgb(58, 57, 57);
 }
 a{
-  font-family: 'DotGothic16', sans-serif;
+  font-family: 'Courier New', sans-serif;
   text-align: center;
   color: rgb(58, 57, 57);
   text-decoration: none;
 }
 a:hover{
   text-decoration: underline;
+}
+footer{
+  text-align: center;
 }
