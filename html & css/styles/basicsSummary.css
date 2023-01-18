@@ -1,0 +1,53 @@
+html{
+    background-color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    font-size: x-large;
+    text-align: center;
+    color: blue;
+}
+
+main{
+    background-color: beige;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+}
+img{
+    width: 400px;
+    height: auto;
+    border-radius: 0;
+}
+li{
+    list-style-type: square;
+    color: orangered;
+    
+}
+span{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 3px;
+}
+footer{
+    margin: 30px;
+    text-align: center;
+}
+button{
+    background-color: orange;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration-line:none;
+}
+/* .bolder{
+    font-weight: bold;
+    background-color: beige;
+} */
