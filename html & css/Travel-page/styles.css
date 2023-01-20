@@ -1,6 +1,6 @@
 #hero{
     height: 800px;
-    background-image: url("/Travel-page/images/places/y00tsbackgroud.jpg");
+    background-image: url("images/places/y00tsbackgroud.jpg");
     background-position: center;
     background-size: cover;
 }
