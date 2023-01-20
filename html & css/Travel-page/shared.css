@@ -13,6 +13,11 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
 }
 
 
@@ -33,5 +38,22 @@ header li{
     font-size: 50px;
     text-decoration: none;
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 2px 2px 4px black;
+}
+#page-logo a:hover{
+    color: orange;
+    transition: 0.8s;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    border-radius: 8px;
+}
+header a:hover{
+    color: orange;
+    transition: 0.8s;
 }
