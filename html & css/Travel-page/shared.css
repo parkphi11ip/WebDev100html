@@ -2,18 +2,34 @@ body{
     font-family: 'Courier New', Courier, monospace ;
     margin: 0;
 }
-
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
     
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+}
+
+
+header ul{
+    display: flex;
+    
+}
+
+header li{
+    margin-left: 20px;
+
+}
 
 #page-logo a{
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
-    color: orangered;
+    color: white;
     font-size: 50px;
     text-decoration: none;
     text-transform: uppercase;
