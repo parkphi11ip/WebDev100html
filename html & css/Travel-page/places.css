@@ -1,0 +1,14 @@
+body{
+    background-color: white;
+}
+
+
+
+header{
+    position: static;
+}
+
+main li img{
+    width: auto;
+    height: 300px;
+}
