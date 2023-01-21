@@ -1,14 +1,49 @@
 body{
     background-color: white;
+    color: rgb(59, 58, 58);
 }
-
-
 
 header{
     position: static;
 }
 
+main ul{
+    width: 1500px;
+    margin: 0 auto;
+
+}
+
+main li{
+    display: flex;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 500px;
+}
+
 main li img{
     width: auto;
     height: 300px;
+    object-fit: cover;
+}
+
+.item-content{
+    padding: 24px;
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.actions a{
+    text-decoration: none;
+    padding: 6px;
+    font-weight: bold;
+    float: right;
+    border-radius: 6px;
+
+}
+.actions a:hover{
+    background-color: orange;
+    /* box-shadow: 200px; */
 }
