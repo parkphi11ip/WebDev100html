@@ -4,8 +4,20 @@ body{
     color: rgb(59, 58, 58);
 }
 
+#page-logo a{
+    color: darkcyan;
+}
+
 header{
     position: static;
+}
+
+header a{
+    color: darkcyan;
+}
+
+header nav a:hover{
+    color: aquamarine;
 }
 
 main ul{
@@ -43,6 +55,12 @@ main li img{
     flex-direction: column;
     justify-content: space-between;
 }
+
+.item-content h2{
+    margin: 0;
+}
+
+
 .actions a{
     text-decoration: none;
     padding: 6px;
